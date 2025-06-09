@@ -1,7 +1,7 @@
 {
   "id": "85c880d5-7674-4d1c-8b26-913f867d1ae4",
   "version": "v04",
-  "type": "Metadata",
+  "type": "Feature",
   "geometry": null,
   "properties": {
     "pubtime": "2025-06-09T14:00:29.579Z",
@@ -9,6 +9,7 @@
     "data_id": "uk-metoffice/data/core/weather/urn.wmo.md.uk-metoffice.core.ocean.surface-based-observations.ocean-profilers.external.json",
     "metadata_id": "urn:wmo:md:uk-metoffice:core:ocean.surface-based-observations.ocean-profilers",
     "cache": true,
+}
   "links": [
     {
       "href": "https://raw.githubusercontent.com/paul4devon/metadata/refs/heads/main/urn.wmo.md.uk-metoffice.core.ocean.surface-based-observations.ocean-profilers.external.json",
