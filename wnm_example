@@ -9,7 +9,7 @@
     "data_id": "uk-metoffice/data/core/weather/urn.wmo.md.uk-metoffice.core.ocean.surface-based-observations.ocean-profilers.external.json",
     "metadata_id": "urn:wmo:md:uk-metoffice:core:ocean.surface-based-observations.ocean-profilers",
     "cache": true
-},
+  },
   "links": [
     {
       "href": "https://raw.githubusercontent.com/paul4devon/metadata/refs/heads/main/urn.wmo.md.uk-metoffice.core.ocean.surface-based-observations.ocean-profilers.external.json",
