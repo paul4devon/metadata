@@ -12,7 +12,7 @@
   },
   "links": [
     {
-      "href": "https://github.com/paul4devon/metadata/blob/main/urn.wmo.md.uk-metoffice.core.ocean.surface-based-observations.ocean-profilers.external.json",
+      "href": "https://raw.githubusercontent.com/paul4devon/metadata/refs/heads/main/urn.wmo.md.uk-metoffice.core.ocean.surface-based-observations.ocean-profilers.external.json",
       "rel": "canonical",
       "type": "application/json",
     }
