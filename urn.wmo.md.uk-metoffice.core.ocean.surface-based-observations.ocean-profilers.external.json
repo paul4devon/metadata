@@ -1,12 +1,12 @@
 {	
-  "id": "urn:wmo:md:uk-metoffice:core:ocean.surface-based-observations.ocean-profilers",	
+  "id": "urn:wmo:md:uk-metoffice:core:ocean.surface-based-observations.drifting-ocean-profilers",	
   "type": "Feature",
   "conformsTo": [	
     "http://wis.wmo.int/spec/wcmp/2/conf/core"	
   ],  
   "geometry": {
       "type": "Polygon",
-      "coordinates": [             
+      "coordinates": [[             
         [
           -180,
           90
@@ -27,7 +27,7 @@
           -180,
           90
         ] 
-     ]
+     ]]
  },
  "time": {	
     "interval": [	
@@ -153,7 +153,7 @@
     {	
       "rel": "items",	
       "href": "mqtts://broker.metoffice.gov.uk",	
-      "channel": "origin/a/wis2/uk-metoffice/data/core/ocean/surface-based-observations/ocean-profilers",	
+      "channel": "origin/a/wis2/uk-metoffice/data/core/ocean/surface-based-observations/drifting-ocean-profilers",	
       "type": "application/geo+json",	
       "title": "Data notifications broker"	
     }	
