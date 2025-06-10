@@ -6,8 +6,8 @@
   "properties": {
     "pubtime": "2025-06-10T12:00:00.000Z",
     "datetime": "2025-06-10T12:00:00.000Z",
-    "data_id": "core.ocean.surface-based-observations.ocean-profilers.external.json",
-    "metadata_id": "urn:wmo:md:uk-metoffice:core:ocean.surface-based-observations.ocean-profilers",
+    "data_id": "core.ocean.surface-based-observations.ocean-profilers.external-2.json",
+    "metadata_id": "urn:wmo:md:uk-metoffice:core:ocean.surface-based-observations.drifting-ocean-profilers",
     "cache": true
   },
   "links": [
