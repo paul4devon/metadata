@@ -1,5 +1,5 @@
 {	
-  "id": "urn:wmo:md:uk-metoffice:core:ocean.surface-based-observations.drifting-ocean-profilers",	
+  "id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.drifting-ocean-profilers",	
   "type": "Feature",
   "conformsTo": [	
     "http://wis.wmo.int/spec/wcmp/2/conf/core"	
