@@ -4,15 +4,15 @@
   "type": "Feature",
   "geometry": null,
   "properties": {
-    "pubtime": "2025-06-10T09:00:00.000Z",
-    "datetime": "2025-06-10T09:00:00.000Z",
-    "data_id": "weather.surface-based-observations.synops.external.json-1",
-    "metadata_id": "urn:wmo:md:uk-metoffice:core:weather.surface-based-observations.synops",
+    "pubtime": "2025-06-10T12:00:00.000Z",
+    "datetime": "2025-06-10T12:00:00.000Z",
+    "data_id": "core.ocean.surface-based-observations.ocean-profilers.external.json",
+    "metadata_id": "urn:wmo:md:uk-metoffice:core:ocean.surface-based-observations.ocean-profilers",
     "cache": true
   },
   "links": [
     {
-      "href": "https://raw.githubusercontent.com/paul4devon/metadata/refs/heads/main/urn.wmo.md.uk-metoffice.core.weather.surface-based-observations.synops.external.json",
+      "href": "https://raw.githubusercontent.com/paul4devon/metadata/refs/heads/main/urn.wmo.md.uk-metoffice.core.ocean.surface-based-observations.ocean-profilers.external.json",
       "rel": "canonical",
       "type": "application/json"
     }
