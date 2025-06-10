@@ -4,10 +4,10 @@
   "type": "Feature",
   "geometry": null,
   "properties": {
-    "pubtime": "2025-06-09T14:00:29.579Z",
-    "datetime": "2025-06-09T14:00:00.000Z",
+    "pubtime": "2025-06-10T09:00:00.000Z",
+    "datetime": "2025-06-10T09:00:00.000Z",
     "data_id": "ocean.surface-based-observations.ocean-profilers.external-1.json",
-    "metadata_id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.drifting-ocean-profilers",
+    "metadata_id": "urn:wmo:md:uk-metoffice:core:weather.surface-based-observations.synops",
     "cache": true
   },
   "links": [
