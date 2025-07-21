@@ -1,0 +1,161 @@
+{	
+  "id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.drifting-ocean-profilers.uk_argo_float",	
+  "type": "Feature",
+  "conformsTo": [	
+    "http://wis.wmo.int/spec/wcmp/2/conf/core"	
+  ],  
+  "geometry": {
+      "type": "Polygon",
+      "coordinates": [[             
+        [
+          -180,
+          90
+        ],
+        [
+          180,
+          90
+        ],
+        [
+          180,
+          -90
+        ],
+        [
+          -180,
+          -90
+        ],
+        [
+          -180,
+          90
+        ] 
+     ]]
+ },
+ "time": {	
+    "interval": [	
+        "T00Z",	
+        "T23Z"	
+    ],	
+    "resolution": "PT6H"	
+  },  
+  "properties": {
+    "title": "UK Argo float data",	
+    "description": "Real-time sub-surface ocean observations from UK Argo floats",	
+    "contacts": [	
+      {	
+        "identifier": "MO",
+        "name": "UK Met Office weather desk",	
+        "organization": "Met Office",	
+        "phones": [	
+          {	
+            "value": "+443301350000"	
+          }	
+        ],	
+        "emails": [	
+          {	
+            "value": "servicedesk@metoffice.gov.uk"	
+          }	
+        ],	
+        "addresses": [	
+          {	
+            "deliveryPoint": [	
+              "FitzRoy Road"	
+            ],	
+            "name": "UK Met Office",	
+            "city": "Exeter",	
+            "administrativeArea": "Devon",
+            "postalCode": "EX1 3PB",	
+            "country": "United Kingdom"	
+          }
+        ],	
+        "links": [	
+          {	
+            "rel": "canonical",	
+            "type": "text/html",	
+            "href": "https://www.metoffice.gov.uk/about-us/contact"	
+          }	
+        ],	
+        "roles": ["host","producer"]
+      }
+    ],			
+    "keywords": [	
+       "ocean",	
+       "sub-surface ocean observations",	
+       "ocean profilers",
+       "marine observations"	
+     ],	
+    "themes": [	
+      {	
+        "concepts": [	
+          {	
+            "id": "Application-ready",	
+            "title": "ukmo:dataReadiness",
+            "description": "",	
+            "url": "http://reference.metoffice.gov.uk/DataCategories/data-readiness/Application-ready"	
+          }	
+        ],	
+        "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-readiness"
+      },
+      {	
+        "concepts": [	
+          {	
+            "id": "Observations",	
+            "title": "ukmo:dataType",
+            "description": "Observations data are defined as measurements of the physical, chemical and/or biological environment, measured at a specific time in the past.  They may be direct or indirect measurements and may be feature or coverage data.  In order to be valid, observations data must carry geospatial and temporal metadata as well as variable values (or equivalent such as pixel values for a faster coverage).",	
+            "url": "http://reference.metoffice.gov.uk/DataCategories/data-types/Observations"	
+          }	
+        ],	
+        "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-types"
+      },
+      {	
+        "concepts": [	
+          {	
+            "id": "ocean",	
+            "title": "Ocean",	
+            "url": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline/ocean"	
+          }	
+        ],	
+        "scheme": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline"
+       },
+       {	
+        "concepts": [	
+          {	
+            "id": "22",	
+            "title": "BUFR/CREX Oceanographic elements",	
+            "url": "http://codes.wmo.int/bufr4/b/22"	
+          }	
+        ],	
+        "scheme": "http://codes.wmo.int/bufr4/b"
+      }	
+    ],	
+    "created": "2025-03-06T14:30:00Z",	
+    "updated": "2025-03-06T14:30:00Z",		
+    "wmo:dataPolicy": "core",
+     "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021))",
+    "type": "dataset",
+    "status": {
+      "id": "operational",
+      "title": "dataset is in 24/7 operation",
+      "url": "https://www.metoffice.gov.uk/services/data/business-data/observational"
+    }
+  },	
+  "links": [
+    {	
+      "rel": "about",	
+      "href": "https://www.ukargo.net/",	
+      "type": "text/html",	
+      "title": "UK Argo"	
+    },
+    {	
+      "rel": "related",	
+      "href": "https://argo.ucsd.edu/",	
+      "type": "text/html",	
+      "title": "Documentation"	
+    },	
+    {	
+      "rel": "items",	
+      "href": "mqtts://broker.metoffice.gov.uk",	
+      "channel": "origin/a/wis2/uk-metoffice/data/core/ocean/surface-based-observations/drifting-ocean-profilers",	
+      "type": "application/geo+json",	
+      "title": "Data notifications broker"	
+    }	
+  ]	
+}	
