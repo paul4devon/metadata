@@ -1,19 +1,19 @@
 {
-  "id": "75c880d5-7674-4d1c-8b26-913f867d1a22",
+  "id": "75c880d5-7674-4d1c-8b26-913f867d1a23",
   "version": "v04",
   "type": "Feature",
   "geometry": null,
   "properties": {
     "pubtime": "2025-07-21T10:00:00.000Z",
     "datetime": "2025-07-21T10:00:00.000Z",
-    "data_id": "ocean.surface-based-observations.drifting-ocean-profilers.uk_argo_float.external.json",
-    "metadata_id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.drifting-ocean-profilers.uk_argo_float",
+    "data_id": "ocean.surface-based-observations.drifting-ocean-profilers.uk_argo_float.external2.json",
+    "metadata_id": "urn:wmo:md:uk-metoffice:core:ocean.surface-based-observations.drifting-ocean-profilers",
     "cache": true
   },
   "links": [
     {
-      "href": "https://raw.githubusercontent.com/paul4devon/metadata/refs/heads/main/urn.wmo.md.uk-metoffice.ocean.surface-based-observations.drifting-ocean-profilers.uk_argo_float.external.json",
-      "rel": "canonical",
+      "href": "https://raw.githubusercontent.com/paul4devon/metadata/refs/heads/main/urn.wmo.md.uk-metoffice.core:ocean.surface-based-observations.drifting-ocean-profilers",
+      "rel": "deletion",
       "type": "application/json"
     }
   ]
